@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>first Shop</title>
+</head>
+
+<body id="body">
+    <div id="container">
+        <header id="header">
+            <a href="http://" id="logo"><img src="./imgages/logo.png" alt="logo"></a>
+
+            <nav>
+                <ul>
+                    <li> <a href="#" id="home">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Product
+
+                            </a>
+                            <div class="dropdown-content">
+                                <a
+                                    href="https://www.google.com/search?sxsrf=ALiCzsZaru7gehRP56KgRm0rKeXWJktb8A:1656501307153&q=iPhone+8&sa=X&ved=2ahUKEwiz_-2fxNL4AhVhXfEDHeUcBbYQ1QJ6BAhAEAE&biw=1482&bih=764&dpr=2">iPhone
+                                    8</a>
+                                <a
+                                    href="https://www.apple.com/de/iphone-13/?afid=p238%7Cs-dc_mtid_20925qby39952_pcrid_601318485062_pgrid_133689361133_&cid=wwa-de-kwgo-iphone-slid---productid-----">iPhone
+                                    13</a>
+                                <a href="https://www.apple.com/de/iphone-11/specs/">iPhone 11</a>
+                            </div>
+
+                    </li>
+                    <li> <a href="https://www.apple.com/de/newsroom/topics/iphone/" id="news">News</a></li>
+                    <li><a id="wagen" href="/form.html"><i class="fa-solid fa-cart-shopping"></i></a><i id"produktZahl">0</i></li>
+                    <li> <a href="#" id="about">About</a></li>
+                    <li> <a href="#" id="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="mainSection">
+            <div id="elemente">
+                <h1>Deine neue Superpower.</h1>
+                <h3>Du wirst es lieben.
+                    Von der<span> Power</span> bis zum <span> Preis</span>.</h3>
+                <p>Ab 21,62 €/Monat oder 519 € vor Inzahlungnahme.§§§</p>
+                <p>Das Herz &#160 <i class="fa-solid fa-heart"></i> &#160 des iPhone SE ist
+                    der gleiche extrem leistungsstarke A15 Bionic Chip wie im iPhone 13.</p>
+            </div>
+            <button id="kaufBtn" class="button"> kaufen!</button>
+
+            <img id="img" src="./imgages/3.png" alt="">
+        <section id="products">
+            <img onclick="changeBgColor(`#e0bc5a`); phones(`./imgages/0.png`)" src="./imgages/0.png" alt="">
+            <img onclick="changeBgColor(`#94acc4`); phones(`./imgages/1.png`)" src="./imgages/1.png" alt="">
+            <img onclick="changeBgColor(`#4d4c48`); phones(`./imgages/2.png`)" src="./imgages/2.png" alt="">
+            <img onclick="changeBgColor(`#e4cfb2`); phones(`./imgages/3.png`)" src="./imgages/3.png" alt="">
+            <img onclick="changeBgColor(`#b84e62`); phones(`./imgages/4.png`)" src="./imgages/4.png" alt="">
+        </section>
+       
+       
+    </div>
+    
+    <!-- <form>
+    First Name: <input type="text" id="fname" value="Donald">
+    <br><br>
+    Convert to upper case
+    <input type="checkbox" onclick="if(this.checked){myFunction()}">
+    </form> -->
+    <script src="index.js"></script>
+    <footer>
+        <i class="fas fa-fire-alt icon"></i>
+        <h2>Rania Reichardt</h2>
+        <p class="footer-zeile">Berlin</p>
+        <p class="footer-zeile">01234/5678910</p>
+        <p class="footer-zeile">rawiamhamdi@yahoo.fr</p>
+        <div class="social-media-zeile">
+            <a href="#" class="social-link">
+                <i class="fab fa-facebook-square icon"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-twitter-square icon"></i>
+            </a>
+            <a href="#" class="social-link">
+                <i class="fab fa-instagram-square icon"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
